@@ -1,0 +1,80 @@
+:root {
+  /* Palette Officielle Imprimerie Aria */
+  --color-aria-primary: #1B3A6B; /* Bleu foncé - Structure */
+  --color-aria-accent: #4A90E2;  /* Bleu clair - Action */
+  --color-aria-bg: #E5E5E5;      /* Gris froid - Fond global */
+  --color-aria-white: #FFFFFF;   /* Blanc pur - Cartes */
+  
+  /* Ombres 3D "Soft Depth" */
+  /* Ombre douce pour les cartes au repos */
+  --shadow-3d-soft: 0 10px 30px -10px rgba(27, 58, 107, 0.1); 
+  /* Ombre marquée pour les éléments survolés (effet levitation) */
+  --shadow-3d-hover: 0 20px 40px -12px rgba(27, 58, 107, 0.25);
+  /* Ombre interne pour effet de profondeur (champs, zones grisées) */
+  --shadow-inner-soft: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--color-aria-bg);
+  color: #334155;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom Tailwind Utilities via CSS variables */
+.bg-aria-primary { background-color: var(--color-aria-primary); }
+.bg-aria-accent { background-color: var(--color-aria-accent); }
+.bg-aria-bg { background-color: var(--color-aria-bg); }
+.bg-aria-white { background-color: var(--color-aria-white); }
+
+.text-aria-primary { color: var(--color-aria-primary); }
+.text-aria-accent { color: var(--color-aria-accent); }
+.text-aria-white { color: var(--color-aria-white); }
+
+.border-aria-primary { border-color: var(--color-aria-primary); }
+.border-aria-accent { border-color: var(--color-aria-accent); }
+
+/* Effets 3D et Animations */
+.card-3d {
+  background-color: var(--color-aria-white);
+  border-radius: 1rem; /* Rounded-2xl equivalent roughly */
+  box-shadow: var(--shadow-3d-soft);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid rgba(255,255,255,0.8); /* Slight border for definition */
+}
+
+.card-3d:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: var(--shadow-3d-hover);
+}
+
+.btn-3d {
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px -1px rgba(27, 58, 107, 0.2), 0 2px 4px -1px rgba(27, 58, 107, 0.1);
+}
+.btn-3d:active {
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Animations d'entrée */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up { animation: fadeInUp 0.6s ease-out forwards; }
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+
+/* Gradient Text */
+.text-gradient-aria {
+  background: linear-gradient(135deg, var(--color-aria-primary) 0%, var(--color-aria-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
