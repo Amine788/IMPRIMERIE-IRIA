@@ -252,10 +252,10 @@ const HomePage: React.FC = () => {
           )}
 
           {/* Voir tous les produits */}
-          <div className="text-center mt-12">
-            <Button as="link" to={ROUTES.PRODUCTS} variant="primary" size="lg"
-              className="inline-flex items-center gap-2 shadow-lg shadow-aria-primary/20">
-              Voir tout notre catalogue <FaArrowRight />
+          <div className="text-center mt-14">
+            <Button as="link" to={ROUTES.PRODUCTS} variant="outline" size="lg"
+              className="group !border-aria-primary !text-aria-primary hover:!bg-aria-primary hover:!text-white transition-all duration-300 transform hover:scale-105">
+              Voir tout notre catalogue <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
         </div>
@@ -282,10 +282,10 @@ const HomePage: React.FC = () => {
             ))}
           </div>
 
-          <div className="mt-10 text-center">
-            <Button as="link" to={ROUTES.PROMOTIONS} variant="secondary" size="lg"
-              className="border-2 border-aria-primary text-aria-primary hover:bg-aria-primary hover:text-white transition-colors">
-              Toutes nos promotions
+          <div className="mt-12 text-center">
+            <Button as="link" to={ROUTES.PROMOTIONS} variant="outline" size="lg"
+              className="group !border-aria-accent !text-aria-accent hover:!bg-aria-accent hover:!text-white transition-all duration-300 transform hover:scale-105">
+              Toutes nos promotions <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
         </div>
@@ -304,13 +304,13 @@ const HomePage: React.FC = () => {
             Notre équipe est disponible pour vous conseiller et établir un devis sur mesure rapidement.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button as="link" to={ROUTES.CONTACT}
-              className="!bg-aria-accent !text-white hover:!bg-blue-400 font-bold px-8 py-4 shadow-xl">
-              <FaPhone className="mr-2" /> Demander un devis
+            <Button as="link" to={ROUTES.CONTACT} variant="primary" size="lg"
+              className="group !bg-aria-accent !text-white hover:scale-105 transition-all duration-300 shadow-xl shadow-aria-accent/20">
+              <FaPhone className="mr-2 group-hover:rotate-12 transition-transform" /> Demander un devis
             </Button>
-            <Button as="link" to={ROUTES.PRODUCTS}
-              className="!bg-white !text-aria-primary hover:!bg-gray-100 font-bold px-8 py-4">
-              Configurer mon impression <FaArrowRight className="ml-2" />
+            <Button as="link" to={ROUTES.PRODUCTS} variant="outline" size="lg"
+              className="group !bg-white !border-white !text-aria-primary hover:!bg-aria-accent hover:!text-white hover:!border-aria-accent transition-all duration-300 transform hover:scale-105">
+              Configurer mon impression <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
         </div>
