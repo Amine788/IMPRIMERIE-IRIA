@@ -19,12 +19,12 @@ const HeroSection: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="max-w-4xl mx-auto flex flex-col items-center gap-8 animate-fade-in-up">
           
-          {/* Logo in Hero for "Perfect Look" */}
+          {/* Logo in Hero for "Perfect Look" - Circular */}
           <div className="mb-2">
             <img 
               src="/assets/logo aria.jpg" 
               alt={translate('app.name')} 
-              className="h-32 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+              className="h-32 w-32 rounded-full object-cover border-4 border-white/20 shadow-2xl drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
             />
           </div>
 

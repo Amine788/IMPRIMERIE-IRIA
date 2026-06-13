@@ -88,7 +88,7 @@ const Header: React.FC = () => {
             <img
               src="/assets/logo aria.jpg"
               alt={translate('app.name')}
-              className="h-16 w-auto object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-300"
+              className="h-16 w-16 rounded-full object-cover relative z-10 transform group-hover:scale-105 transition-transform duration-300 border-2 border-aria-accent/20"
             />
           </div>
         </Link>

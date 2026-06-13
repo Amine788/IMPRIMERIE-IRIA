@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             <img 
               src="/assets/logo aria.jpg" 
               alt={translate('app.name')} 
-              className="h-20 w-auto object-contain brightness-0 invert" 
+              className="h-20 w-20 rounded-full object-cover brightness-0 invert" 
               style={{ filter: 'brightness(0) invert(1)' }}
             />
           </div>
