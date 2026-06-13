@@ -48,6 +48,8 @@ const ProductListingPage: React.FC = () => {
 
   const allProducts = useMemo(() => getProducts(), []);
 
+  const productRoute = location.pathname.startsWith('/produits') ? ROUTES.PRODUITS : ROUTES.PRODUCTS;
+
   // Catégories uniques
   const categories = useMemo(() => {
     const uniqueCategories = new Set<ProductCategory>();
@@ -97,7 +99,7 @@ const ProductListingPage: React.FC = () => {
         <div className="bg-gray-150 p-1.5 rounded-2xl inline-flex flex-wrap gap-1 shadow-inner border border-gray-200">
           <button
             onClick={() => {
-              navigate(ROUTES.PRODUCTS);
+              navigate(productRoute);
               setActiveTab('catalog');
             }}
             className={`px-6 py-3 rounded-xl font-bold text-sm transition-all duration-300 ${
@@ -110,7 +112,7 @@ const ProductListingPage: React.FC = () => {
           </button>
           <button
             onClick={() => {
-              navigate(`${ROUTES.PRODUCTS}#tarifs`);
+              navigate(`${productRoute}#tarifs`);
               setActiveTab('pricing');
             }}
             className={`px-6 py-3 rounded-xl font-bold text-sm transition-all duration-300 ${
@@ -123,7 +125,7 @@ const ProductListingPage: React.FC = () => {
           </button>
           <button
             onClick={() => {
-              navigate(`${ROUTES.PRODUCTS}#calculateur`);
+              navigate(`${productRoute}#calculateur`);
               setActiveTab('calculator');
             }}
             className={`px-6 py-3 rounded-xl font-bold text-sm transition-all duration-300 flex items-center gap-2 ${
@@ -407,7 +409,7 @@ const ProductListingPage: React.FC = () => {
                 <button
                   onClick={() => {
                     // Redirection vers la page produit configurateur
-                    navigate(`${ROUTES.PRODUCTS}/${selectedPricingSheet.id}`);
+                    navigate(`${productRoute}/${selectedPricingSheet.id}`);
                   }}
                   className="btn-3d w-full md:w-auto bg-aria-accent hover:bg-aria-primary text-white font-extrabold px-8 py-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-aria-accent/20 text-base"
                 >

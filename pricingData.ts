@@ -40,7 +40,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Le format A6 est idéal pour la distribution en boîte aux lettres ou en main propre. Prospectus économiques et impactants.',
     dimensions: '10.5 × 14.8 cm',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (1).jpeg',
+    image: '/assets/Flyers A6.png',
     promo: {
       text: '🎯 PROMO : 5 000 Flyers A6 — 135g Couché R/V → 1 900 dh HT',
       preselect: {
@@ -96,7 +96,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Le format standard incontournable pour vos prospectus, menus, flyers commerciaux. Grand espace de communication.',
     dimensions: '15 × 21 cm',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12.jpeg',
+    image: '/assets/Flyers A5.png',
     promo: {
       text: '🎯 PROMO : 5 000 Flyers A5 — 135g Couché R/V → 2 300 dh HT',
       preselect: {
@@ -152,7 +152,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Format enveloppe américaine, très élégant et adapté aux cartes de correspondance, cartons d’invitation et dépliants fins.',
     dimensions: '10 × 21 cm',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (1).jpeg',
+    image: '/assets/Flyers A6.png',
     promo: {
       text: '🎯 PROMO : 5 000 Flyers DL — 135g Couché R/V → 2 200 dh HT',
       preselect: {
@@ -208,7 +208,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Idéal pour vos brochures publicitaires pliées (2 ou 3 volets, accordéon ou roulé). Impression offset haute qualité.',
     dimensions: '21 × 29.7 cm ouvert',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (4).jpeg',
+    image: '/assets/Dépliant A4.png',
     promo: {
       text: '🎯 PROMO CHOC : 1 000 Dépliants A4 — 135g Couché Plié R/V → 1 790 dh HT',
       preselect: {
@@ -246,7 +246,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Dépliants grand format, parfaits pour les menus de restaurant détaillés, brochures d’agences immobilières et événements corporatifs.',
     dimensions: '29.7 × 42 cm ouvert',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (5).jpeg',
+    image: '/assets/Dépliant A3.png',
     promo: {
       text: '🎯 PROMO CHOC : 1 000 Dépliants A3 — 135g Couché Plié R/V → 3 990 dh HT',
       preselect: {
@@ -284,7 +284,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.PAPETERIE,
     description: 'Carnets autocopiants A5 (bons de commande, de livraison, reçus). 50 feuillets dupli, tripli, quadrupli ou quintupli.',
     dimensions: '15 × 21 cm',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (2).jpeg',
+    image: '/assets/Carnets NCR A5.png',
     promo: {
       text: '🎯 Numérotation offerte à partir de 500 ex.',
       preselect: {
@@ -320,7 +320,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.PAPETERIE,
     description: 'Format standard A4 pour factures professionnelles, devis officiels et bons de commande détaillés. 50 feuillets par carnet.',
     dimensions: '29.7 × 21 cm',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (3).jpeg',
+    image: '/assets/Carnets NCR A4.png',
     options: [
       { name: 'Numérotation personnalisée', price: '+150 dh' },
       { name: 'Collage en tête ou côté', price: 'Gratuit' }
@@ -347,7 +347,7 @@ export const AriaPricingCatalog: PricingSheet[] = [
     category: ProductCategory.PAPETERIE,
     description: 'Format A4 imprimé en Recto/Verso avec conditions générales de vente ou contrats au verso. Idéal pour contrats de location, agences immobilières. Feuillets radars fixes disponibles.',
     dimensions: '29.7 × 21 cm',
-    image: '/flyers/WhatsApp Image 2026-06-09 at 10.57.12 (3).jpeg',
+    image: '/assets/Carnets NCR A4 Recto  Verso.png',
     options: [
       { name: 'Feuillets Radars fixes (4 souches)', price: 'Disponible' },
       { name: 'Numérotation personnalisée', price: '+150 dh' }

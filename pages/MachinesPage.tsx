@@ -15,25 +15,25 @@ const mockMachines: Machine[] = [
     id: '1',
     name: 'Presse Offset Heidelberg Speedmaster',
     description: 'Une machine d\'impression offset de pointe, idéale pour les grands volumes et une qualité d\'image supérieure sur une large gamme de papiers.',
-    imageUrl: 'https://images.unsplash.com/photo-1596541249767-f70353c7a9b0?auto=format&fit=crop&q=80&w=1080&h=720', // Original is good, keeping
+    imageUrl: '/assets/heidelberg_speedmaster.png',
   },
   {
     id: '2',
     name: 'Imprimante Numérique Xerox Iridesse Production Press',
     description: 'Offre une flexibilité inégalée pour les petites et moyennes séries, avec des capacités d\'impression métalliques et de vernis sélectif.',
-    imageUrl: 'https://images.unsplash.com/photo-1558230554-b5f4c4a6a57e?auto=format&fit=crop&q=80&w=1080&h=720', // Updated: Modern digital press
+    imageUrl: '/assets/xerox_iridesse.png',
   },
   {
     id: '3',
     name: 'Traceur Grand Format HP DesignJet Z9⁺',
     description: 'Parfait pour les affiches, bâches et signalétiques. Assure des couleurs vives et une durabilité extérieure exceptionnelle.',
-    imageUrl: 'https://images.unsplash.com/photo-1617478496425-4b1e5a5f7f2b?auto=format&fit=crop&q=80&w=1080&h=720', // Updated: Large format printer at work
+    imageUrl: '/assets/hp_designjet.png',
   },
   {
     id: '4',
     name: 'Machine de Finition MBO K80 Combi-Folding',
     description: 'Pour des pliages précis et complexes de dépliants et brochures, garantissant une finition impeccable.',
-    imageUrl: 'https://images.unsplash.com/photo-1577717903275-c990176840d2?auto=format&fit=crop&q=80&w=1080&h=720', // Original is good, keeping
+    imageUrl: '/assets/mbo_folding.png',
   },
 ];
 

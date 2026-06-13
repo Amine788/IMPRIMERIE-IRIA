@@ -66,7 +66,7 @@ const Header: React.FC = () => {
 
   const navLinks = [
     { path: ROUTES.HOME, label: translate('nav.home') },
-    { path: ROUTES.PRODUCTS, label: translate('nav.products') },
+    { path: ROUTES.PRODUITS, label: translate('nav.products') },
     { path: ROUTES.PROMOTIONS, label: translate('nav.promotions') },
     { path: ROUTES.ABOUT, label: translate('nav.about') },
     { path: ROUTES.FAQ, label: translate('nav.faq') },
@@ -100,7 +100,7 @@ const Header: React.FC = () => {
         <nav className="hidden lg:flex flex-grow justify-center">
           <ul className="flex space-x-6 xl:space-x-8">
             {navLinks.map((link) => {
-              if (link.path === ROUTES.PRODUCTS) {
+              if (link.path === ROUTES.PRODUCTS || link.path === ROUTES.PRODUITS) {
                 return (
                   <li
                     key={link.path}

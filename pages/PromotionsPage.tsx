@@ -21,7 +21,7 @@ const mockPromotions: Promotion[] = [
     title: '-20% sur tous les Flyers !',
     description: 'Profitez d\'une réduction exceptionnelle pour imprimer vos flyers publicitaires. Idéal pour vos campagnes de communication.',
     discount: '20%',
-    imageUrl: 'https://images.unsplash.com/photo-1511266014389-70a793c3065b?auto=format&fit=crop&q=80&w=600&h=400', // Updated: Person holding promotional flyers
+    imageUrl: '/assets/Flyers A5.png',
     linkTo: `${ROUTES.PRODUCTS}/flyer-standard`, // Link to a specific product
   },
   {
@@ -29,7 +29,7 @@ const mockPromotions: Promotion[] = [
     title: 'Cartes de Visite Luxe - Offre Spéciale',
     description: 'Sublimez votre image professionnelle avec nos cartes de visite luxe. Obtenez 100 cartes supplémentaires offertes pour toute commande de 500.',
     discount: '100 cartes offertes',
-    imageUrl: 'https://images.unsplash.com/photo-1575465597402-4161a0526715?auto=format&fit=crop&q=80&w=600&h=400', // Updated: Elegant business cards (consistent with product)
+    imageUrl: '/assets/Carte de Visite Luxe.png',
     linkTo: `${ROUTES.PRODUCTS}/carte-visite-luxe`,
   },
   {
@@ -37,7 +37,7 @@ const mockPromotions: Promotion[] = [
     title: '5% de réduction sur le Packaging Sur Mesure',
     description: 'Réduisez vos coûts sur vos solutions d\'emballage personnalisées. Offre valable pour toutes les nouvelles commandes de packaging.',
     discount: '5%',
-    imageUrl: 'https://images.unsplash.com/photo-1606825227749-06b251a3a60a?auto=format&fit=crop&q=80&w=600&h=400', // Updated: Custom packaging for a product
+    imageUrl: '/assets/Boîte Carton Personnalisée.png',
     linkTo: `${ROUTES.PRODUCTS}/boite-carton`, // Fixed: Added missing linkTo property
   },
 ];

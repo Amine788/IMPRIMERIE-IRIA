@@ -28,7 +28,7 @@ export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
     return key; // Return the key itself if no translation is found
   }, [language]);
 
-  const loginAdmin = useCallback((username: string, password: string): boolean => {
+  const loginAdmin = useCallback(function (username: string, password: string): boolean {
     // --- SIMULATED ADMIN LOGIN LOGIC ---
     // In a real application, this would involve API calls to a backend for authentication
     // and receiving a JWT or session token.

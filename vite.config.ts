@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
           name: 'serve-flyers-assets',
           configureServer(server) {
             server.middlewares.use((req, res, next) => {
-              if (req.url && req.url.startsWith('/flyers/')) {
+              if (req.url && (req.url.startsWith('/flyers/') || req.url.startsWith('/assets/'))) {
                 try {
                   const decoded = decodeURIComponent(req.url);
                   const filepath = join(process.cwd(), decoded);

@@ -2,8 +2,9 @@
   /* Palette Officielle Imprimerie Aria */
   --color-aria-primary: #1B3A6B; /* Bleu foncé - Structure */
   --color-aria-accent: #4A90E2;  /* Bleu clair - Action */
-  --color-aria-bg: #E5E5E5;      /* Gris froid - Fond global */
-  --color-aria-white: #FFFFFF;   /* Blanc pur - Cartes */
+  --color-aria-bg: #F8FAFC;      /* Gris très clair (slate-50) pour le fond global */
+  --color-aria-bg-secondary: #FFFFFF; /* Blanc pour les cartes par défaut */
+  --color-aria-white: #FFFFFF;   /* Blanc pur */
   
   /* Ombres 3D "Soft Depth" */
   /* Ombre douce pour les cartes au repos */
@@ -29,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 .bg-aria-primary { background-color: var(--color-aria-primary); }
 .bg-aria-accent { background-color: var(--color-aria-accent); }
 .bg-aria-bg { background-color: var(--color-aria-bg); }
+.bg-aria-background-secondary { background-color: var(--color-aria-bg-secondary); }
 .bg-aria-white { background-color: var(--color-aria-white); }
 
 .text-aria-primary { color: var(--color-aria-primary); }
