@@ -31,14 +31,14 @@ const mockBlogPosts: BlogPost[] = [
     id: '3',
     title: 'Le packaging : plus qu\'une simple boîte, une expérience',
     excerpt: 'Explorez comment un packaging innovant peut transformer l\'expérience client et renforcer l\'identité de votre marque.',
-    imageUrl: '/assets/Boîte Carton Personnalisée.png',
+    imageUrl: '/assets/boite_carton_personnalisee.png',
     date: '20/04/2024',
   },
   {
     id: '4',
     title: 'Bien choisir le papier pour vos impressions grand format',
     excerpt: 'Le choix du papier est crucial pour la qualité de vos affiches et bâches. Suivez nos conseils pour faire le bon choix.',
-    imageUrl: '/assets/Roll-up Publicitaire.png',
+    imageUrl: '/assets/roll_up_publicitaire.png',
     date: '10/04/2024',
   },
 ];

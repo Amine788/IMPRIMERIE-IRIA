@@ -140,7 +140,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Flyers A5',
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Flyers A5 (15×21 cm) offset haute qualité. Recto ou Recto/Verso.',
-    image: '/assets/Flyers A5.png',
+    image: '/assets/flyers_a5.png',
     basePricePerUnit: 0.65, // 650 dh / 1000 ex (135g Couché Recto)
     availableDimensions: [DIMENSIONS.A5],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_135, PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_135, PAPER_TYPES.COATED_GLOSS_170],
@@ -160,7 +160,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Flyer Rond',
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Flyers originaux de forme ronde, sur mesure.',
-    image: '/assets/Flyer Rond.png', // Relevant image: Custom shaped sticker/label
+    image: '/assets/flyer_rond.png', // Relevant image: Custom shaped sticker/label
     basePricePerUnit: 1.5,
     availableDimensions: [DIMENSIONS.ROUND_CUSTOM],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_170],
@@ -180,7 +180,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Dépliants A4',
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Dépliants A4 (21×29.7 cm ouvert) avec 2, 3 ou 4 volets. Impression offset haute qualité.',
-    image: '/assets/Dépliant A4.png',
+    image: '/assets/depliant_a4.png',
     basePricePerUnit: 1.79, // 1790 dh / 1000 ex (135g Couché Plié R/V)
     availableDimensions: [DIMENSIONS.DEPLIANT_2V_A4, DIMENSIONS.DEPLIANT_3V_A4, DIMENSIONS.DEPLIANT_4V_10X21],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_135, PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_170],
@@ -201,7 +201,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Carte de Visite Standard',
     category: ProductCategory.CARTES,
     description: 'Votre carte de visite professionnelle classique.',
-    image: '/assets/Carte de Visite Standard.png', // Relevant image: Stack of business cards with a hand
+    image: '/assets/carte_de_visite_standard.png', // Relevant image: Stack of business cards with a hand
     basePricePerUnit: 1.0,
     availableDimensions: [DIMENSIONS.STANDARD_CARD],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_170, PAPER_TYPES.OFFSET_90, PAPER_TYPES.KRAFT_300],
@@ -221,7 +221,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Carte de Visite Luxe',
     category: ProductCategory.CARTES,
     description: 'Cartes de visite haut de gamme avec finitions spéciales.',
-    image: '/assets/Carte de Visite Luxe.png', // Relevant image: Elegant business cards with subtle texture
+    image: '/assets/carte_de_visite_luxe.png', // Relevant image: Elegant business cards with subtle texture
     basePricePerUnit: 2.5,
     availableDimensions: [DIMENSIONS.STANDARD_CARD, DIMENSIONS.SQUARE_CARD],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_170], // Simulate thicker paper
@@ -241,7 +241,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Carte PVC',
     category: ProductCategory.CARTES,
     description: 'Cartes en PVC résistantes, idéales pour cartes de fidélité.',
-    image: '/assets/Carte PVC.png', // Relevant image: Generic plastic card (loyalty/gift)
+    image: '/assets/carte_pvc.png', // Relevant image: Generic plastic card (loyalty/gift)
     basePricePerUnit: 3.5,
     availableDimensions: [DIMENSIONS.STANDARD_CARD],
     availablePaperTypes: [PAPER_TYPES.PVC_CARD],
@@ -283,7 +283,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Catalogue Agrafé',
     category: ProductCategory.CATALOGUES_BROCHURES,
     description: 'Catalogues agrafés pour une présentation économique et efficace.',
-    image: '/assets/Catalogue Agrafé.png', // Relevant image: Open catalog/magazine
+    image: '/assets/catalogue_agrafe.png', // Relevant image: Open catalog/magazine
     basePricePerUnit: 15.0, // A5 base price for ~8 pages
     availableDimensions: [DIMENSIONS.CATALOGUE_A4, DIMENSIONS.CATALOGUE_A5, DIMENSIONS.CATALOGUE_CARRE],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_135, PAPER_TYPES.OFFSET_90],
@@ -304,7 +304,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Boîte Carton Personnalisée',
     category: ProductCategory.PACKAGING,
     description: 'Packaging sur mesure pour vos produits.',
-    image: '/assets/Boîte Carton Personnalisée.png', // Relevant image: Various custom printed boxes
+    image: '/assets/boite_carton_personnalisee.png', // Relevant image: Various custom printed boxes
     basePricePerUnit: 10.0, // Base for small carton box
     availableDimensions: [DIMENSIONS.CUSTOM_PACKAGING], // Custom dimensions required
     availablePaperTypes: [PAPER_TYPES.KRAFT_300, PAPER_TYPES.COATED_MATT_170],
@@ -325,7 +325,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Enveloppe US',
     category: ProductCategory.PAPETERIE,
     description: 'Enveloppes personnalisées pour votre correspondance.',
-    image: '/assets/Enveloppe US.png', // Relevant image: Stack of white envelopes
+    image: '/assets/enveloppe_us.png', // Relevant image: Stack of white envelopes
     basePricePerUnit: 1.0,
     availableDimensions: [DIMENSIONS.ENVELOPPE_US, DIMENSIONS.ENVELOPPE_C6, DIMENSIONS.ENVELOPPE_A5, DIMENSIONS.ENVELOPPE_A4],
     availablePaperTypes: [PAPER_TYPES.OFFSET_90],
@@ -345,7 +345,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Papier en-tête',
     category: ProductCategory.PAPETERIE,
     description: 'Papier en-tête personnalisé pour un usage professionnel.',
-    image: '/assets/Papier En-tête.png', // Relevant image: Branded notepad/letterhead
+    image: '/assets/papier_en_tete.png', // Relevant image: Branded notepad/letterhead
     basePricePerUnit: 0.5,
     availableDimensions: [DIMENSIONS.PAPER_HEADER],
     availablePaperTypes: [PAPER_TYPES.OFFSET_90, PAPER_TYPES.RECYCLED_80],
@@ -366,7 +366,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Roll-up Publicitaire',
     category: ProductCategory.OBJETS_PLV,
     description: 'Roll-up pour vos présentations et salons.',
-    image: '/assets/Roll-up Publicitaire.png', // Relevant image: Roll-up banner at an exhibition
+    image: '/assets/roll_up_publicitaire.png', // Relevant image: Roll-up banner at an exhibition
     basePricePerUnit: 250.0,
     availableDimensions: [DIMENSIONS.ROLLUP_85X200, DIMENSIONS.ROLLUP_120X200],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_170], // Simulate durable material
@@ -386,7 +386,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Mug Personnalisé',
     category: ProductCategory.OBJETS_PLV,
     description: 'Mugs personnalisés avec votre logo ou design.',
-    image: '/assets/Mug Personnalisé.png', // Relevant image: White mug with a custom design
+    image: '/assets/mug_personnalise.png', // Relevant image: White mug with a custom design
     basePricePerUnit: 35.0,
     availableDimensions: [DIMENSIONS.MUG],
     availablePaperTypes: [PAPER_TYPES.NA_PAPER], // Use N/A paper type
@@ -406,7 +406,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Tote Bag Personnalisé',
     category: ProductCategory.OBJETS_PLV,
     description: 'Tote bags écologiques personnalisés pour votre marque.',
-    image: '/assets/Tote Bag Personnalisé.png', // Relevant image: Tote bag with a logo
+    image: '/assets/tote_bag_personnalise.png', // Relevant image: Tote bag with a logo
     basePricePerUnit: 45.0,
     availableDimensions: [DIMENSIONS.TOTEBAG],
     availablePaperTypes: [PAPER_TYPES.NA_PAPER], // Use N/A paper type
@@ -426,7 +426,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Stylos Personnalisés',
     category: ProductCategory.OBJETS_PLV,
     description: 'Stylos personnalisés avec votre logo.',
-    image: '/assets/Stylos Personnalisés.png',
+    image: '/assets/stylos_personnalises.png',
     basePricePerUnit: 5.0,
     availableDimensions: [DIMENSIONS.PENS],
     availablePaperTypes: [PAPER_TYPES.NA_PAPER],
@@ -449,7 +449,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Flyers A6',
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Flyers A6 (10.5×14.8 cm). Idéal pour prospectus et petites annonces.',
-    image: '/assets/Flyers A6.png',
+    image: '/assets/flyers_a6.png',
     basePricePerUnit: 0.45, // 450 dh / 1000 ex (135g Couché Recto)
     availableDimensions: [DIMENSIONS.A6],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_135, PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_135, PAPER_TYPES.COATED_GLOSS_170],
@@ -470,7 +470,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Flyers DL 10×21',
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Flyers format DL (10×21 cm). Parfait pour menus, offres et cartes postales.',
-    image: '/assets/Flyers A6.png',
+    image: '/assets/flyers_a6.png',
     basePricePerUnit: 0.55, // 550 dh / 1000 ex (135g Couché Recto)
     availableDimensions: [DIMENSIONS.DL],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_135, PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_135, PAPER_TYPES.COATED_GLOSS_170],
@@ -491,7 +491,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Dépliants A3',
     category: ProductCategory.FLYERS_DEPLIANTS,
     description: 'Dépliants A3 (29.7×42 cm ouvert). Grand format avec 2, 3 ou 4 volets, finitions premium.',
-    image: '/assets/Dépliant A3.png',
+    image: '/assets/depliant_a3.png',
     basePricePerUnit: 3.99, // 3990 dh / 1000 ex (135g Couché Plié R/V)
     availableDimensions: [DIMENSIONS.A3],
     availablePaperTypes: [PAPER_TYPES.COATED_MATT_135, PAPER_TYPES.COATED_MATT_170, PAPER_TYPES.COATED_GLOSS_170],
@@ -512,7 +512,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Carnets NCR A5',
     category: ProductCategory.PAPETERIE,
     description: 'Carnets autocopiants NCR A5 (15×21 cm). 2 à 5 souches. Avec ou sans numérotation.',
-    image: '/assets/Carnets NCR A5.png',
+    image: '/assets/carnets_ncr_a5.png',
     basePricePerUnit: 30.8, // 308 dh / 10 carnets (2 souches Blanc/Jaune)
     availableDimensions: [DIMENSIONS.CATALOGUE_A5],
     availablePaperTypes: [PAPER_TYPES.NCR_2_SOUCHES, PAPER_TYPES.NCR_3_SOUCHES, PAPER_TYPES.NCR_4_SOUCHES, PAPER_TYPES.NCR_5_SOUCHES],
@@ -533,7 +533,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Carnets NCR A4',
     category: ProductCategory.PAPETERIE,
     description: 'Carnets autocopiants NCR A4 (29.7×21 cm). Factures, bons de commande, devis. 2 à 5 souches.',
-    image: '/assets/Carnets NCR A4.png',
+    image: '/assets/carnets_ncr_a4.png',
     basePricePerUnit: 45.0, // 450 dh / 10 carnets (2 souches Blanc/Jaune)
     availableDimensions: [DIMENSIONS.CATALOGUE_A4],
     availablePaperTypes: [PAPER_TYPES.NCR_2_SOUCHES, PAPER_TYPES.NCR_3_SOUCHES, PAPER_TYPES.NCR_4_SOUCHES, PAPER_TYPES.NCR_5_SOUCHES],
@@ -553,7 +553,7 @@ export const PRODUCT_DATA: Product[] = [
     name: 'Carnets NCR A4 R/V',
     category: ProductCategory.PAPETERIE,
     description: 'Carnets NCR A4 (29.7×21 cm) imprimés en Recto/Verso (Contrats de location, etc.). Feuillets radars fixes dispos (4 souches).',
-    image: '/assets/Carnets NCR A4 Recto  Verso.png',
+    image: '/assets/carnets_ncr_a4_rv.png',
     basePricePerUnit: 55.0, // 550 dh / 10 carnets
     availableDimensions: [DIMENSIONS.CATALOGUE_A4],
     availablePaperTypes: [PAPER_TYPES.NCR_2_SOUCHES, PAPER_TYPES.NCR_3_SOUCHES, PAPER_TYPES.NCR_4_SOUCHES],

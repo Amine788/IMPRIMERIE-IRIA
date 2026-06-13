@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
           {/* Logo in Hero for "Perfect Look" - Circular */}
           <div className="mb-2">
             <img 
-              src="/assets/logo aria.jpg" 
+              src="/assets/logo_aria.jpg" 
               alt={translate('app.name')} 
               className="h-32 w-32 rounded-full object-cover border-4 border-white/20 shadow-2xl drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
             />

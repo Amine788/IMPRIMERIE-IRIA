@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         <div>
           <div className="mb-6">
             <img 
-              src="/assets/logo aria.jpg" 
+              src="/assets/logo_aria.jpg" 
               alt={translate('app.name')} 
               className="h-20 w-20 rounded-full object-cover brightness-0 invert" 
               style={{ filter: 'brightness(0) invert(1)' }}

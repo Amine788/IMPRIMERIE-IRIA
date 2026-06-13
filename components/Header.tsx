@@ -86,7 +86,7 @@ const Header: React.FC = () => {
              {/* Effet lumineux discret au survol */}
             <div className="absolute inset-0 bg-aria-accent opacity-0 group-hover:opacity-20 blur-xl rounded-full transition-opacity duration-500"></div>
             <img
-              src="/assets/logo aria.jpg"
+              src="/assets/logo_aria.jpg"
               alt={translate('app.name')}
               className="h-16 w-16 rounded-full object-cover relative z-10 transform group-hover:scale-105 transition-transform duration-300 border-2 border-aria-accent/20"
             />
