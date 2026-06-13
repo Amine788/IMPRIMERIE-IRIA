@@ -19,6 +19,15 @@ const HeroSection: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="max-w-4xl mx-auto flex flex-col items-center gap-8 animate-fade-in-up">
           
+          {/* Logo in Hero for "Perfect Look" */}
+          <div className="mb-2">
+            <img 
+              src="/assets/logo aria.jpg" 
+              alt={translate('app.name')} 
+              className="h-32 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+            />
+          </div>
+
           {/* Promo Badge */}
           <div className="inline-flex items-center gap-2 bg-red-600 text-white px-8 py-3 rounded-full shadow-[0_0_15px_rgba(220,38,38,0.5)] transform hover:scale-105 transition-transform duration-300 border-2 border-red-400 cursor-default">
              <FaTag className="text-lg" />

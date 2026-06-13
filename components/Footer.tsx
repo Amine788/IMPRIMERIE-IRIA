@@ -15,7 +15,14 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"> {/* More gap */}
         {/* About Section */}
         <div>
-          <h4 className="text-aria-white text-xl font-bold mb-4">{translate('app.name')}</h4> {/* Stronger font */}
+          <div className="mb-6">
+            <img 
+              src="/assets/logo aria.jpg" 
+              alt={translate('app.name')} 
+              className="h-20 w-auto object-contain brightness-0 invert" 
+              style={{ filter: 'brightness(0) invert(1)' }}
+            />
+          </div>
           <p className="text-sm font-open-sans leading-relaxed">
             {translate('hero.title')}
           </p>

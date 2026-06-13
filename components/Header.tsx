@@ -83,17 +83,14 @@ const Header: React.FC = () => {
         {/* Logo Section */}
         <Link to={ROUTES.HOME} className="flex items-center group">
           <div className="relative">
-             {/* Simulation d'un effet logo pro */}
-            <div className="absolute inset-0 bg-aria-accent opacity-0 group-hover:opacity-10 blur-xl rounded-full transition-opacity duration-500"></div>
+             {/* Effet lumineux discret au survol */}
+            <div className="absolute inset-0 bg-aria-accent opacity-0 group-hover:opacity-20 blur-xl rounded-full transition-opacity duration-500"></div>
             <img
-              src="https://res.cloudinary.com/dqhuqkeq2/image/upload/v1770029485/WhatsApp_Image_2026-02-02_at_11.04.20_kmckd9.jpg"
+              src="/assets/logo aria.jpg"
               alt={translate('app.name')}
-              className="h-12 w-auto object-contain mr-3 relative z-10"
+              className="h-16 w-auto object-contain relative z-10 transform group-hover:scale-105 transition-transform duration-300"
             />
           </div>
-          <span className="text-2xl font-extrabold text-aria-primary tracking-tight">
-            {translate('app.name')}
-          </span>
         </Link>
 
         {/* Desktop Navigation */}
